@@ -8,6 +8,15 @@
     },
     "com.vrchat.core.vpm-resolver": {
       "version": "0.1.29"
+    },
+    "com.texelsaur.video": {
+      "version": "2.4.15"
+    },
+    "com.texelsaur.misc": {
+      "version": "1.0.4"
+    },
+    "com.texelsaur.playeraudio": {
+      "version": "1.0.5"
     }
   },
   "locked": {
@@ -24,6 +33,29 @@
     "com.vrchat.core.vpm-resolver": {
       "version": "0.1.29",
       "dependencies": {}
+    },
+    "com.texelsaur.video": {
+      "version": "2.4.15",
+      "dependencies": {
+        "com.texelsaur.common": "^1.5.0"
+      }
+    },
+    "com.texelsaur.common": {
+      "version": "1.5.3",
+      "dependencies": {}
+    },
+    "com.texelsaur.misc": {
+      "version": "1.0.4",
+      "dependencies": {
+        "com.texelsaur.common": "^1.0.0"
+      }
+    },
+    "com.texelsaur.playeraudio": {
+      "version": "1.0.5",
+      "dependencies": {
+        "com.texelsaur.common": "^1.0.0",
+        "com.texelsaur.misc": "^1.0.0"
+      }
     }
   }
 }
